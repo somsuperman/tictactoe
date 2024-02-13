@@ -1,4 +1,5 @@
 #idea folder
 .idea/
 
+#node modulesnp
 node_modules
