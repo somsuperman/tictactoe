@@ -40,14 +40,14 @@ export default {
   data() {
     return {
       logos: [
-        {src: require('src/assets/logos/logo1.svg'), alt: 'Logo 1'},
-        {src: require('src/assets/logos/logo2.svg'), alt: 'Logo 2'},
-        {src: require('src/assets/logos/logo3.svg'), alt: 'Logo 3'},
-        {src: require('src/assets/logos/logo4.svg'), alt: 'Logo 4'},
-        {src: require('src/assets/logos/logo5.svg'), alt: 'Logo 5'},
-        {src: require('src/assets/logos/logo6.svg'), alt: 'Logo 6'},
-        {src: require('src/assets/logos/logo7.svg'), alt: 'Logo 7'},
-        {src: require('src/assets/logos/logo8.svg'), alt: 'Logo 8'}
+        {src: require('/src/assets/logos/logo1.svg'), alt: 'Logo 1'},
+        {src: require('/src/assets/logos/logo2.svg'), alt: 'Logo 2'},
+        {src: require('/src/assets/logos/logo3.svg'), alt: 'Logo 3'},
+        {src: require('/src/assets/logos/logo4.svg'), alt: 'Logo 4'},
+        {src: require('/src/assets/logos/logo5.svg'), alt: 'Logo 5'},
+        {src: require('/src/assets/logos/logo6.svg'), alt: 'Logo 6'},
+        {src: require('/src/assets/logos/logo7.svg'), alt: 'Logo 7'},
+        {src: require('/src/assets/logos/logo8.svg'), alt: 'Logo 8'}
       ]
     };
   },
@@ -59,7 +59,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .swiper-slide {
   align-items: center;
   justify-content: center;

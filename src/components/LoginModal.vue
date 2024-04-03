@@ -94,7 +94,7 @@ export default defineComponent({
   },
 });
 </script>
-<style>
+<style lang="scss">
 .modal-enter-active, .modal-leave-active {
   transition: opacity 0.3s ease;
   .overlay {
