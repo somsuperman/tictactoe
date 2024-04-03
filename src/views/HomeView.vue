@@ -28,9 +28,9 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import RegistrationModal from '@/components/RegistrationModal.vue';
-import LoginModal from '@/components/LoginModal.vue';
-import LogoCarousel from '@/components/LogoCarousel.vue';
+import RegistrationModal from '../components/RegistrationModal.vue';
+import LoginModal from '../components/LoginModal.vue';
+import LogoCarousel from '../components/LogoCarousel.vue';
 
 export default defineComponent({
   components: {

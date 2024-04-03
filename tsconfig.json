@@ -13,7 +13,7 @@
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "sourceMap": true,
-    "baseUrl": ".",
+    "baseUrl": "./tic-tac-toe",
     "types": [
       "webpack-env"
     ],
